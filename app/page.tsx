@@ -242,7 +242,7 @@ export default function EnchantingDateProposalApp() {
         disabled={answers.food.length === 0}
         className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-6 rounded-full transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed"
       >
-        Let's go!
+        Let&apos;s go!
       </Button>
     </motion.div>,
 
@@ -290,7 +290,7 @@ export default function EnchantingDateProposalApp() {
         }}
         className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-6 rounded-full transition-all duration-300 transform hover:scale-105"
       >
-        Let's go!!
+        Let&apos;s go!!
       </Button>
     </motion.div>,
 
@@ -300,7 +300,7 @@ export default function EnchantingDateProposalApp() {
         All set, thank you!!
       </h2>
       <p className="text-xl mb-2 text-pink-500">
-        Let's meet on
+        Let&apos;s meet on
       </p>
       <p className="text-2xl font-bold mb-6 text-pink-600">
         {answers.date?.toLocaleDateString("en-US", {dateStyle: 'full'})} at {answers.time}
@@ -326,7 +326,7 @@ export default function EnchantingDateProposalApp() {
         transition={{ delay: 1, duration: 1 }}
         className="mt-6 text-lg text-pink-500"
       >
-        <p>we're going to {answers.food.join(", ")}.</p>
+        <p>we&apos;re going to {answers.food.join(", ")}.</p>
         <p className="mt-4 font-bold">
           Your excitement level: {answers.excitement}/100
         </p>
