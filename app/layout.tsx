@@ -3,7 +3,7 @@ import {Jura} from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Date Proposal App",
+  title: "Meeting App",
   description: "A magical way to ask that special someone on a date!",
 };
 
